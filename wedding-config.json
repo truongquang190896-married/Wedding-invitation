@@ -1,0 +1,279 @@
+{
+  "_comment": "File cấu hình thiệp cưới - Chỉ cần thay đổi thông tin trong file này",
+  
+  "coupleInfo": {
+    "_comment": "Thông tin cô dâu chú rể",
+    "bride": {
+      "name": "Nguyễn Thị Hoài Dung",
+      "title": "Cô Dâu",
+      "parents": "Con gái của ông bà Nguyễn Văn Thanh và Nguyễn Thị Phương",
+      "description": "Là một nhân viên văn phòng hiện đang làm việc tại Hà Nội. Tính cách là người hiền lành và ít nói, luôn coi trọng tình cảm và yêu thương gia đình. Quan điểm sống của cô: \"Gia đình là điểm tựa vững chắc nhất và là bến đỗ bình yên không đâu sánh bằng đôi với mỗi con người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về\"",
+      "image": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-4.jpg",
+      "images": {
+        "_comment": "2 ảnh cho desktop (left, right) và 2 ảnh cho mobile",
+        "desktop": {
+          "left": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-4.jpg",
+          "right": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-5.jpg"
+        },
+        "mobile": {
+          "left": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-6.jpg",
+          "right": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-7.jpg"
+        }
+      },
+      "facebook": "https://www.facebook.com/hoaiidungg22",
+      "instagram": "#"
+    },
+    "groom": {
+      "name": "Đỗ Quốc Bảo", 
+      "title": "Chú Rể",
+      "parents": "Con trai của bà Nguyễn Thị Hường",
+      "description": "Là một lập trình viên hiện đang làm việc tại Hà Nội. Tính cách là người hiền lành và ít nói, luôn coi trọng tình cảm và yêu thương gia đình. Quan điểm sống của anh: \"Gia đình là điểm tựa vững chắc nhất và là bến đỗ bình yên không đâu sánh bằng đôi với mỗi con người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về\"",
+      "image": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
+      "images": {
+        "_comment": "2 ảnh cho desktop (left, right) và 2 ảnh cho mobile",
+        "desktop": {
+          "left": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
+          "right": "https://studiovietnam.vn/wp-content/uploads/2023/02/chu-re-1-minh-2.jpg"
+        },
+        "mobile": {
+          "left": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
+          "right": "https://studiovietnam.vn/wp-content/uploads/2023/02/chu-re-1-minh-2.jpg"
+        }
+      },
+      "facebook": "https://www.facebook.com/oquocbao.821976",
+      "instagram": "#"
+    }
+  },
+
+  "weddingDate": {
+    "_comment": "Thông tin ngày cưới - Format: YYYY-MM-DDTHH:MM:SS",
+    "datetime": "2026-02-15T09:00:00",
+    "displayDate": "15 . 02 . 2026",
+    "invitationText": "Chúng tôi sắp kết hôn!"
+  },
+
+  "heroSlider": {
+    "_comment": "Ảnh slider ở phần hero - Desktop và Mobile có ảnh riêng biệt",
+    "desktop": {
+      "_comment": "4 ảnh cho hero slider trên desktop",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "alt": "Ảnh cưới desktop 1"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80", 
+          "alt": "Ảnh cưới desktop 2"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "alt": "Ảnh cưới desktop 3"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "alt": "Ảnh cưới desktop 4"
+        }
+      ]
+    },
+    "mobile": {
+      "_comment": "4 ảnh riêng cho hero slider trên mobile - tối ưu cho màn hình nhỏ",
+      "images": [
+        {
+          "url": "https://tuart.net/wp-content/uploads/2018/11/337037441_593616946031217_3723428232241468671_n-1-683x1024.jpg",
+          "alt": "Ảnh cưới mobile 1"
+        },
+        {
+          "url": "https://anhvienmimosa.com.vn/wp-content/uploads/2024/11/chup-anh-cuoi-bo-doi-9.jpg",
+          "alt": "Ảnh cưới mobile 2"
+        },
+        {
+          "url": "https://omni.vn/wp-content/uploads/2024/07/428684308_815560980600417_4611392218242734120_n.jpg",
+          "alt": "Ảnh cưới mobile 3"
+        },
+        {
+          "url": "https://khoistudio.vn/wp-content/uploads/2023/03/13.jpg",
+          "alt": "Ảnh cưới mobile 4"
+        }
+      ]
+    }
+  },
+
+  "galleryImages": {
+    "_comment": "Ảnh album cưới trong phần gallery - 12 ảnh cho 12 vị trí",
+    "images": [
+      {
+        "url": "https://tonywedding.vn/wp-content/uploads/2024/11/466384752_984800360355178_7379814956701362444_n.jpg",
+        "alt": "Album ảnh cưới 1"
+      },
+      {
+        "url": "https://tonywedding.vn/wp-content/uploads/2024/11/462208343_960299506138597_5812446365563537491_n.jpg",
+        "alt": "Album ảnh cưới 2"
+      },
+      {
+        "url": "https://mimosawedding.vn/wp-content/uploads/2023/08/chup-anh-cuoi-phong-tron-1.jpg",
+        "alt": "Album ảnh cưới 3"
+      },
+      {
+        "url": "https://omni.vn/wp-content/uploads/2024/07/447995227_882136537276194_1550088102818803443_n-1.jpg",
+        "alt": "Album ảnh cưới 4"
+      },
+      {
+        "url": "https://2hstudio.vn/wp-content/uploads/2024/11/TL_03683-scaled.webp",
+        "alt": "Album ảnh cưới 5"
+      },
+      {
+        "url": "https://felywedding.com/wp-content/uploads/2024/08/TON6780.jpg",
+        "alt": "Album ảnh cưới 6"
+      },
+      {
+        "url": "https://anhvienmimosa.com.vn/wp-content/uploads/2024/11/chup-anh-cuoi-bo-doi-9.jpg",
+        "alt": "Album ảnh cưới 7"
+      },
+      {
+        "url": "https://tuart.net/wp-content/uploads/2025/05/z6619572389766_f3efcac53d50dc869a23510a0b76be3d.jpg",
+        "alt": "Album ảnh cưới 8"
+      },
+      {
+        "url": "https://omni.vn/wp-content/uploads/2024/10/457740514_941712314651949_2697134804648459042_n.jpg",
+        "alt": "Album ảnh cưới 9"
+      },
+      {
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpqMtKPvU6ARxfyNoOQOMycdBOO1FQqhrcZQ&s",
+        "alt": "Album ảnh cưới 10"
+      },
+      {
+        "url": "https://nicolebridal.vn/wp-content/uploads/2024/08/Anh-cuoi-style-Han-voi-phong-tron.jpg",
+        "alt": "Album ảnh cưới 11"
+      },
+      {
+        "url": "https://bizweb.dktcdn.net/100/409/603/files/10-dieu-can-chuan-bi-truoc-khi-chup-anh-cuoi-1.jpg?v=1630405246907",
+        "alt": "Album ảnh cưới 12"
+      }
+    ]
+  },
+
+  "weddingEvents": {
+    "_comment": "Thông tin các sự kiện trong ngày cưới",
+    "day1": {
+      "date": "Ngày 14 tháng 2 năm 2026",
+      "lunarDate": "(Ngày 05 tháng 01 Âm lịch)",
+      "events": [
+        {
+          "title": "Lễ ăn hỏi",
+          "time": "7 giờ - 9 giờ",
+          "description": "Xe xuất phát từ nhà trai lúc 7 giờ 15 phút."
+        },
+        {
+          "title": "Tiệc cưới",
+          "time": "17 giờ - 22 giờ", 
+          "description": "Tiệc cưới được tổ chức tại địa điểm nhà trai và nhà gái theo địa chỉ trên map."
+        }
+      ]
+    },
+    "day2": {
+      "date": "Ngày 15 tháng 2 năm 2026",
+      "lunarDate": "(Ngày 06 tháng 01 Âm lịch)",
+      "events": [
+        {
+          "title": "Lễ đón dâu",
+          "time": "8 giờ - 10 giờ",
+          "description": "Xe xuất phát từ nhà trai lúc 8 giờ 15 phút."
+        },
+        {
+          "title": "Tiệc cưới",
+          "time": "10 giờ - 13 giờ",
+          "description": "Tiệc cưới được tổ chức tại nhà trai bắt đầu từ 10 giờ 30 phút."
+        }
+      ]
+    },
+    "_legacy": {
+      "ceremony": {
+        "title": "Lễ Thành Hôn",
+        "icon": "fas fa-church",
+        "date": "Chủ Nhật, 22/02/2026",
+        "time": "10:00 AM", 
+        "venue": "Nhà thờ Tân Định",
+        "address": "289 Hai Bà Trưng, Quận 3, TP.HCM"
+      },
+      "reception": {
+        "title": "Tiệc Cưới",
+        "icon": "fas fa-utensils",
+        "date": "Chủ Nhật, 22/02/2026", 
+        "time": "10:00 AM",
+        "venue": "Khách sạn Park Hyatt",
+        "address": "2 Lam Sơn Square, Quận 1, TP.HCM"
+      }
+    }
+  },
+
+  "contactInfo": {
+    "_comment": "Thông tin liên hệ và mạng xã hội",
+    "facebook": "#",
+    "instagram": "#", 
+    "twitter": "#"
+  },
+
+  "musicSettings": {
+    "_comment": "Cài đặt nhạc nền",
+    "musicFile": "./images/wedding-music.mp3",
+    "volume": 0.3,
+    "autoPlay": true
+  },
+
+  "seoSettings": {
+    "_comment": "Cài đặt SEO và meta tags",
+    "title": "Wedding Invitation - Thiệp Cưới Online",
+    "description": "Thiệp cưới online của chúng tôi - Chúng tôi sắp kết hôn!",
+    "ogImage": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+  },
+
+  "mapSettings": {
+    "_comment": "Cài đặt Google Maps - Thay đổi embed URL theo địa điểm thực tế",
+    "brideFamily": {
+      "title": "Nhà Gái",
+      "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình",
+      "embedUrl": "https://www.google.com/maps/place/20%C2%B014'34.7%22N+106%C2%B024'07.8%22E/@20.2429722,106.3995918,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.2429722!4d106.4021667?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    "groomFamily": {
+      "title": "Nhà Trai", 
+      "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình",
+      "embedUrl": "https://www.google.com/maps/place/20%C2%B014'34.7%22N+106%C2%B024'07.8%22E/@20.2429722,106.3995918,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.2429722!4d106.4021667?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"
+    }
+  },
+
+  "sliderSettings": {
+    "_comment": "Cài đặt slider",
+    "heroAutoPlayInterval": 7000,
+    "galleryAutoPlayInterval": 5000
+  },
+
+  "bankingInfo": {
+    "_comment": "Thông tin tài khoản ngân hàng và QR code",
+    "title": "Mừng Cưới",
+    "description": "Thay lời chúc, cảm ơn bạn đã gửi lời chúc mừng đến đám cưới của chúng tôi",
+    "bride": {
+      "name": "Nguyễn Thị Hoài Dung",
+      "bankName": "Ngân hàng BIDV",
+      "accountNumber": "2153208613",
+      "accountName": "NGUYEN THI HOAI DUNG",
+      "qrCode": "https://img.vietqr.io/image/970418-1234567890-compact2.jpg?amount=&addInfo=Chuc%20mung%20cuoi&accountName=NGUYEN%20THI%20HOAI%20DUNG"
+    },
+    "groom": {
+      "name": "Đỗ Quốc Bảo",
+      "bankName": "Ngân hàng TPBank", 
+      "accountNumber": "83171997102",
+      "accountName": "DO QUOC BAO",
+      "qrCode": "https://img.vietqr.io/image/970436-0987654321-compact2.jpg?amount=&addInfo=Chuc%20mung%20cuoi&accountName=DO%20QUOC%20BAO"
+    }
+  },
+
+  "_instructions": {
+    "howToUse": "Để customize website:",
+    "step1": "Thay đổi thông tin trong file này", 
+    "step2": "Upload ảnh của bạn lên imgur, cloudinary hoặc hosting khác",
+    "step3": "Copy URL ảnh và paste vào các trường image trong file này",
+    "step4": "Thay đổi tên, địa chỉ, ngày cưới theo thông tin thực tế",
+    "step5": "Chạy website để xem kết quả",
+    "note": "Không cần chỉnh sửa code HTML/CSS/JS, chỉ cần thay đổi file JSON này"
+  }
+} 
