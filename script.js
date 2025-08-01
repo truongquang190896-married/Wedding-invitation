@@ -352,8 +352,22 @@ function sendToGoogleSheets(data) {
     // Thay YOUR_GOOGLE_APPS_SCRIPT_URL bằng URL thực từ Apps Script deployment
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw05BzvRHuPUFBDEGUqBH_0OmP3mEB0EiqvnzYlA14MuvC6yp7BRh1OA4bb6k0GOzI/exec';
     
+    // Map dữ liệu từ form fields sang format mong đợi
+    const mappedData = {
+        name: data.guestName || '',
+        email: data.guestEmail || '',
+        phone: data.guestPhone || '',
+        attendance: data.attendance === 'yes' ? 'Có, tôi sẽ tham dự' : 
+                   data.attendance === 'no' ? 'Rất tiếc, tôi không thể tham dự' : 
+                   data.attendance || '',
+        guests: data.guestCount || 1,
+        message: data.message || ''
+    };
+    
     // Hiển thị loading
     console.log('📤 Sending RSVP to Google Sheets...');
+    console.log('📋 Original data:', data);
+    console.log('📋 Mapped data:', mappedData);
     
     fetch(scriptURL, {
         method: 'POST',
@@ -361,7 +375,7 @@ function sendToGoogleSheets(data) {
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(mappedData)
     })
     .then(() => {
         // No-cors mode không thể đọc response, nhưng request đã được gửi
