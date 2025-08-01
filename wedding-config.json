@@ -190,18 +190,18 @@
       "ceremony": {
         "title": "Lễ Thành Hôn",
         "icon": "fas fa-church",
-        "date": "Chủ Nhật, 22/02/2026",
+        "date": "Chủ Nhật, 15/02/2026",
         "time": "10:00 AM", 
         "venue": "Nhà thờ Tân Định",
-        "address": "289 Hai Bà Trưng, Quận 3, TP.HCM"
+        "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình"
       },
       "reception": {
         "title": "Tiệc Cưới",
         "icon": "fas fa-utensils",
-        "date": "Chủ Nhật, 22/02/2026", 
+        "date": "Chủ Nhật, 15/02/2026", 
         "time": "10:00 AM",
         "venue": "Khách sạn Park Hyatt",
-        "address": "2 Lam Sơn Square, Quận 1, TP.HCM"
+        "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình"
       }
     }
   },
@@ -256,14 +256,14 @@
       "bankName": "Ngân hàng BIDV",
       "accountNumber": "2153208613",
       "accountName": "NGUYEN THI HOAI DUNG",
-      "qrCode": "https://img.vietqr.io/image/970418-1234567890-compact2.jpg?amount=&addInfo=Chuc%20mung%20cuoi&accountName=NGUYEN%20THI%20HOAI%20DUNG"
+      "qrCode": "./images/qr_codau.jpg"
     },
     "groom": {
       "name": "Đỗ Quốc Bảo",
       "bankName": "Ngân hàng TPBank", 
       "accountNumber": "83171997102",
       "accountName": "DO QUOC BAO",
-      "qrCode": "https://img.vietqr.io/image/970436-0987654321-compact2.jpg?amount=&addInfo=Chuc%20mung%20cuoi&accountName=DO%20QUOC%20BAO"
+      "qrCode": "./images/qr_chure.jpg"
     }
   },
 

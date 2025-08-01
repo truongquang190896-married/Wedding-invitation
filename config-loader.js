@@ -250,7 +250,7 @@ function applyGalleryImages() {
     // Cập nhật format mới (Fancybox grid)
     const galleryRow = document.querySelector('#gallery .row:last-child');
     if (galleryRow) {
-        const galleryItems = galleryRow.querySelectorAll('.col-md-2');
+        const galleryItems = galleryRow.querySelectorAll('.col-md-4');
         
         weddingConfig.galleryImages.images.forEach((image, index) => {
             if (galleryItems[index]) {
@@ -259,18 +259,23 @@ function applyGalleryImages() {
                 
                 if (link) link.href = image.url;
                 if (img) {
-                    img.src = image.url.replace('w=2070', 'w=500'); // Thumbnail version
+                    // Chỉ thay đổi kích thước nếu là ảnh từ Unsplash
+                    if (image.url.includes('unsplash.com')) {
+                        img.src = image.url.replace('w=2070', 'w=500'); // Thumbnail version
+                    } else {
+                        img.src = image.url; // Sử dụng URL gốc cho các domain khác
+                    }
                     img.alt = image.alt;
                 }
             }
         });
         
-        // Nếu có nhiều hình hơn 12, thêm vào
+        // Nếu có nhiều hình hơn 12, thêm vào (với col-md-4, mỗi hàng có 3 ảnh)
         if (weddingConfig.galleryImages.images.length > 12) {
             for (let i = 12; i < weddingConfig.galleryImages.images.length; i++) {
                 const image = weddingConfig.galleryImages.images[i];
                 const colDiv = document.createElement('div');
-                colDiv.className = 'col-md-2';
+                colDiv.className = 'col-md-4 col-sm-6 mb-4';
                 
                 colDiv.innerHTML = `
                     <a class="fancybox" rel="group" href="${image.url}">
@@ -278,7 +283,7 @@ function applyGalleryImages() {
                             <div class="overlay">
                                 <i class="fa fa-search"></i>
                             </div>
-                            <img src="${image.url.replace('w=2070', 'w=500')}" alt="${image.alt}"/>
+                            <img src="${image.url.includes('unsplash.com') ? image.url.replace('w=2070', 'w=500') : image.url}" alt="${image.alt}"/>
                         </div>
                     </a>
                 `;
