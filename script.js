@@ -350,7 +350,7 @@ function submitRSVP(data) {
 // Google Sheets Integration
 function sendToGoogleSheets(data) {
     // Thay YOUR_GOOGLE_APPS_SCRIPT_URL bằng URL thực từ Apps Script deployment
-    const scriptURL = 'https://script.google.com/macros/s/AKfycby_FK2Hqm0yHguqPwOF7GDiDg8-QZQ7zleQgUNt0_7gaO6XhkaKy5WMVy87t6-KKFI/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw05BzvRHuPUFBDEGUqBH_0OmP3mEB0EiqvnzYlA14MuvC6yp7BRh1OA4bb6k0GOzI/exec';
     
     // Hiển thị loading
     console.log('📤 Sending RSVP to Google Sheets...');
