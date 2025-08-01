@@ -4,7 +4,7 @@ Website thiệp cưới đẹp và responsive, được thiết kế để chia 
 
 ## 🌐 Live Demo
 
-🔗 **Website thiệp cưới:** [https://YOUR_USERNAME.github.io/wedding-invitation/](https://YOUR_USERNAME.github.io/wedding-invitation/)
+🔗 **Website thiệp cưới:** [https://baond1704.github.io/Wedding-invitation-/](https://baond1704.github.io/Wedding-invitation-/)
 
 *(Thay `YOUR_USERNAME` bằng username GitHub của bạn)*
 

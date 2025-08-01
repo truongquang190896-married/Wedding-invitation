@@ -119,17 +119,38 @@ let heroDots = null;
 // Function để lấy active hero slider dựa trên screen size
 function getActiveHeroSlider() {
     const isMobile = window.innerWidth <= 768;
-    return isMobile ? 
-        document.querySelector('.hero-slider-mobile') : 
-        document.querySelector('.hero-slider-desktop');
+    const mobileSlider = document.querySelector('.hero-slider-mobile');
+    const desktopSlider = document.querySelector('.hero-slider-desktop');
+    
+    if (isMobile && mobileSlider) {
+        return mobileSlider;
+    } else if (!isMobile && desktopSlider) {
+        return desktopSlider;
+    }
+    
+    // Fallback: return any available slider
+    return mobileSlider || desktopSlider;
 }
 
 // Function để update hero slider elements
 function updateHeroSliderElements() {
     const activeSlider = getActiveHeroSlider();
+    console.log('Active slider:', activeSlider ? activeSlider.className : 'none found');
+    
     if (activeSlider) {
         heroSlides = activeSlider.querySelectorAll('.hero-slide');
         heroDots = document.querySelectorAll('.hero-dot');
+        
+        console.log('Found', heroSlides.length, 'slides and', heroDots.length, 'dots');
+        
+        // Reset current index if needed
+        if (currentHeroIndex >= heroSlides.length) {
+            currentHeroIndex = 0;
+        }
+    } else {
+        console.warn('No active hero slider found');
+        heroSlides = null;
+        heroDots = null;
     }
 }
 
@@ -139,10 +160,21 @@ function showHeroSlide(index) {
         updateHeroSliderElements();
     }
     
-    if (!heroSlides || heroSlides.length === 0) return;
+    if (!heroSlides || heroSlides.length === 0) {
+        console.warn('No hero slides available to show');
+        return;
+    }
     
-    // Hide all hero slides
+    // Validate index
+    if (index < 0 || index >= heroSlides.length) {
+        console.warn('Invalid slide index:', index);
+        return;
+    }
+    
+    // Hide all hero slides in current active slider
     heroSlides.forEach(slide => slide.classList.remove('active'));
+    
+    // Hide all dots
     if (heroDots) {
         heroDots.forEach(dot => dot.classList.remove('active'));
     }
@@ -157,11 +189,13 @@ function showHeroSlide(index) {
 }
 
 function changeHeroSlide(direction) {
-    if (!heroSlides || heroSlides.length === 0) {
-        updateHeroSliderElements();
-    }
+    // Ensure elements are updated
+    updateHeroSliderElements();
     
-    if (!heroSlides || heroSlides.length === 0) return;
+    if (!heroSlides || heroSlides.length === 0) {
+        console.warn('No hero slides found');
+        return;
+    }
     
     currentHeroIndex += direction;
     if (currentHeroIndex >= heroSlides.length) {
@@ -169,38 +203,76 @@ function changeHeroSlide(direction) {
     } else if (currentHeroIndex < 0) {
         currentHeroIndex = heroSlides.length - 1;
     }
+    
     showHeroSlide(currentHeroIndex);
 }
 
 function currentHeroSlide(index) {
+    // Ensure elements are updated
+    updateHeroSliderElements();
+    
+    if (!heroSlides || heroSlides.length === 0) {
+        console.warn('No hero slides found');
+        return;
+    }
+    
     currentHeroIndex = index - 1;
+    // Validate index bounds
+    if (currentHeroIndex < 0) {
+        currentHeroIndex = 0;
+    } else if (currentHeroIndex >= heroSlides.length) {
+        currentHeroIndex = heroSlides.length - 1;
+    }
+    
     showHeroSlide(currentHeroIndex);
 }
 
 // Initialize Hero Slider với hỗ trợ responsive
 function initHeroSlider() {
+    console.log('Initializing hero slider...');
+    
     // Update elements khi khởi tạo
     updateHeroSliderElements();
-    
-    // Auto-change hero slide every 7 seconds
-    setInterval(function() {
-        changeHeroSlide(1);
-    }, 7000);
     
     // Initialize first slide
     showHeroSlide(0);
     
+    // Make functions globally available for onclick handlers
+    window.changeHeroSlide = changeHeroSlide;
+    window.currentHeroSlide = currentHeroSlide;
+    
+    // Auto-change hero slide every 7 seconds - only start after initialization
+    let autoSlideInterval = setInterval(function() {
+        if (heroSlides && heroSlides.length > 0) {
+            changeHeroSlide(1);
+        }
+    }, 7000);
+    
     // Listen for window resize để update slider khi chuyển device
     window.addEventListener('resize', function() {
-        const previousActiveSlider = getActiveHeroSlider();
-        setTimeout(() => {
-            const currentActiveSlider = getActiveHeroSlider();
-            if (previousActiveSlider !== currentActiveSlider) {
-                updateHeroSliderElements();
-                showHeroSlide(currentHeroIndex);
+        clearTimeout(this.resizeTimer);
+        this.resizeTimer = setTimeout(() => {
+            const prevSlideCount = heroSlides ? heroSlides.length : 0;
+            updateHeroSliderElements();
+            const newSlideCount = heroSlides ? heroSlides.length : 0;
+            
+            // If slide count changed, reset to first slide
+            if (prevSlideCount !== newSlideCount) {
+                currentHeroIndex = 0;
             }
-        }, 100);
+            
+            showHeroSlide(currentHeroIndex);
+        }, 250);
     });
+    
+    // Ensure proper cleanup on page unload
+    window.addEventListener('beforeunload', function() {
+        if (autoSlideInterval) {
+            clearInterval(autoSlideInterval);
+        }
+    });
+    
+    console.log('Hero slider initialized with', heroSlides ? heroSlides.length : 0, 'slides');
 }
 
 

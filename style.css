@@ -1765,9 +1765,9 @@ p.invitation-text.text-secondary {
         transform: none;
     }
     
-    /* Show overlay by default on touch devices */
+    /* Hide overlay on touch devices to prevent pink overlay issue */
     .img-wrap .overlay {
-        opacity: 0.7;
+        opacity: 0;
     }
 }
 
