@@ -4,52 +4,52 @@
   "coupleInfo": {
     "_comment": "Thông tin cô dâu chú rể",
     "bride": {
-      "name": "Nguyễn Thị Hoài Dung",
+      "name": "Hồ Huỳnh Ngọc Hạnh",
       "title": "Cô Dâu",
-      "parents": "Con gái của ông bà Nguyễn Văn Thanh và Nguyễn Thị Phương",
-      "description": "Là một nhân viên văn phòng hiện đang làm việc tại Hà Nội. Tính cách là người hiền lành và ít nói, luôn coi trọng tình cảm và yêu thương gia đình. Quan điểm sống của cô: \"Gia đình là điểm tựa vững chắc nhất và là bến đỗ bình yên không đâu sánh bằng đôi với mỗi con người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về\"",
-      "image": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-4.jpg",
+      "parents": "Con gái của ông bà Hồ Trương Kỳ Hảo và Huỳnh Thị Ngọc Tâm",
+      "description": "Đang soạn\"",
+      "image": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
       "images": {
         "_comment": "2 ảnh cho desktop (left, right) và 2 ảnh cho mobile",
         "desktop": {
-          "left": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-4.jpg",
-          "right": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-5.jpg"
+          "left": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
+          "right": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6"
         },
         "mobile": {
-          "left": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-6.jpg",
-          "right": "https://anhvienmimosa.com.vn/wp-content/uploads/2022/05/chup-anh-cuoi-co-dau-mot-minh-7.jpg"
+          "left": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
+          "right": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6"
         }
       },
-      "facebook": "https://www.facebook.com/hoaiidungg22",
+      "facebook": "https://www.facebook.com/truongquang190896",
       "instagram": "#"
     },
     "groom": {
-      "name": "Đỗ Quốc Bảo", 
+      "name": "Trần Nguyễn Quang Trường", 
       "title": "Chú Rể",
-      "parents": "Con trai của bà Nguyễn Thị Hường",
-      "description": "Là một lập trình viên hiện đang làm việc tại Hà Nội. Tính cách là người hiền lành và ít nói, luôn coi trọng tình cảm và yêu thương gia đình. Quan điểm sống của anh: \"Gia đình là điểm tựa vững chắc nhất và là bến đỗ bình yên không đâu sánh bằng đôi với mỗi con người. Đó luôn là nơi tràn ngập tình yêu thương để ta trở về\"",
-      "image": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
+      "parents": "Con trai của ông bà Trần Văn Thất và Nguyễn Thị ÁNh Tuyết",
+      "description": "Đang soạn\"",
+      "image": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
       "images": {
         "_comment": "2 ảnh cho desktop (left, right) và 2 ảnh cho mobile",
         "desktop": {
-          "left": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
-          "right": "https://studiovietnam.vn/wp-content/uploads/2023/02/chu-re-1-minh-2.jpg"
+          "left": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
+          "right": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6"
         },
         "mobile": {
-          "left": "https://felywedding.com/wp-content/uploads/2022/01/35-10.jpg",
-          "right": "https://studiovietnam.vn/wp-content/uploads/2023/02/chu-re-1-minh-2.jpg"
+          "left": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
+          "right": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6"
         }
       },
-      "facebook": "https://www.facebook.com/oquocbao.821976",
+      "facebook": "https://www.facebook.com/truongquang190896",
       "instagram": "#"
     }
   },
 
   "weddingDate": {
     "_comment": "Thông tin ngày cưới - Format: YYYY-MM-DDTHH:MM:SS",
-    "datetime": "2026-02-15T09:00:00",
-    "displayDate": "15 . 02 . 2026",
-    "invitationText": "Chúng tôi sắp kết hôn!"
+    "datetime": "2025-12-21T17:00:00",
+    "displayDate": "21 . 12 . 2025",
+    "invitationText": "Ngày Kết Hôn!"
   },
 
   "heroSlider": {
@@ -58,19 +58,19 @@
       "_comment": "4 ảnh cho hero slider trên desktop",
       "images": [
         {
-          "url": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "url": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
           "alt": "Ảnh cưới desktop 1"
         },
         {
-          "url": "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80", 
+          "url": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6", 
           "alt": "Ảnh cưới desktop 2"
         },
         {
-          "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "url": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
           "alt": "Ảnh cưới desktop 3"
         },
         {
-          "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+          "url": "https://photos.app.goo.gl/VAmRyizC32rQuMTS6",
           "alt": "Ảnh cưới desktop 4"
         }
       ]
@@ -155,53 +155,48 @@
   "weddingEvents": {
     "_comment": "Thông tin các sự kiện trong ngày cưới",
     "day1": {
-      "date": "Ngày 14 tháng 2 năm 2026",
-      "lunarDate": "(Ngày 05 tháng 01 Âm lịch)",
+      "date": "Ngày 21 tháng 12 năm 2025",
+      "lunarDate": "(Ngày 02 tháng 11 Âm lịch)",
       "events": [
         {
-          "title": "Lễ ăn hỏi",
-          "time": "7 giờ - 9 giờ",
-          "description": "Xe xuất phát từ nhà trai lúc 7 giờ 15 phút."
+          "title": "Lễ Vu Quy",
+          "time": "10 giờ",
+          "description": "Xe xuất phát từ nhà trai lúc 9 giờ 30 phút."
         },
         {
-          "title": "Tiệc cưới",
+          "title": "Tiệc Cưới",
           "time": "17 giờ - 22 giờ", 
-          "description": "Tiệc cưới được tổ chức tại địa điểm nhà trai và nhà gái theo địa chỉ trên map."
+          "description": "Tiệc cưới được tổ chức tại địa điểm theo địa chỉ trên map."
         }
       ]
     },
     "day2": {
-      "date": "Ngày 15 tháng 2 năm 2026",
-      "lunarDate": "(Ngày 06 tháng 01 Âm lịch)",
+      "date": "Ngày 28 tháng 12 năm 2025",
+      "lunarDate": "(Ngày 08 tháng 12 Âm lịch)",
       "events": [
         {
-          "title": "Lễ đón dâu",
-          "time": "8 giờ - 10 giờ",
-          "description": "Xe xuất phát từ nhà trai lúc 8 giờ 15 phút."
-        },
-        {
-          "title": "Tiệc cưới",
-          "time": "10 giờ - 13 giờ",
-          "description": "Tiệc cưới được tổ chức tại nhà trai bắt đầu từ 10 giờ 30 phút."
+          "title": "Tiệc Cưới",
+          "time": "11 giờ",
+          "description": "Tiệc cưới được tổ chức tại địa điểm theo địa chỉ trên map."
         }
       ]
     },
     "_legacy": {
       "ceremony": {
-        "title": "Lễ Thành Hôn",
+        "title": "Lễ Vu Quy",
         "icon": "fas fa-church",
-        "date": "Chủ Nhật, 15/02/2026",
+        "date": "Chủ Nhật, 21/12/2025",
         "time": "10:00 AM", 
-        "venue": "Nhà thờ Tân Định",
-        "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình"
+        "venue": "195 Ngô Gia Tự",
+        "address": "Hoàn Mỹ Resort Ninh Chử, Đường Yên Ninh, Phường Đông Hải, Tỉnh Khánh Hoà"
       },
       "reception": {
         "title": "Tiệc Cưới",
         "icon": "fas fa-utensils",
-        "date": "Chủ Nhật, 15/02/2026", 
-        "time": "10:00 AM",
-        "venue": "Khách sạn Park Hyatt",
-        "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình"
+        "date": "Chủ Nhật, 28/12/2025", 
+        "time": "11:00 AM",
+        "venue": "Pavillon Tân Sơn Nhất",
+        "address": "Tầnh 3, Sảnh Pearl, 202 Đ. Hoàng Văn Thụ, Phường 9, Phú Nhuận, Tp. Hồ Chí Minh"
       }
     }
   },
@@ -224,20 +219,20 @@
     "_comment": "Cài đặt SEO và meta tags",
     "title": "Wedding Invitation - Thiệp Cưới Online",
     "description": "Thiệp cưới online của chúng tôi - Chúng tôi sắp kết hôn!",
-    "ogImage": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80"
+    "ogImage": "https://photos.google.com/album/AF1QipOTlz18ahE8OYRBOn-N0runGPOY07rQ-S_EVJHp/photo/AF1QipPHPegwMmYf1SYTUVHB4HESg0nOVkHILnO2anZP"
   },
 
   "mapSettings": {
     "_comment": "Cài đặt Google Maps - Thay đổi embed URL theo địa điểm thực tế",
     "brideFamily": {
       "title": "Nhà Gái",
-      "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình",
-      "embedUrl": "https://www.google.com/maps/place/20%C2%B014'34.7%22N+106%C2%B024'07.8%22E/@20.2429722,106.3995918,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.2429722!4d106.4021667?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"
+      "address": "195 Ngô Gia Tự",
+      "embedUrl": "https://www.google.com/maps/place/Pharmacy+_Nh%C3%A0+Thu%E1%BB%91c+T%C3%A2m+Ph%C6%B0%E1%BB%9Bc/@11.5694675,108.9948182,20.5z/data=!4m15!1m8!3m7!1s0x3170d029a09a98f1:0xb03600ed40be372f!2zMTk1IE5nLiBHaWEgVOG7sSwgUGjhu6cgSMOgLCBQaGFuIFJhbmctVGjDoXAgQ2jDoG0sIE5pbmggVGh14bqtbiA2NjAwMDAsIFZp4buHdCBOYW0!3b1!8m2!3d11.5696219!4d108.9948416!16s%2Fg%2F11rp3d7tbn!3m5!1s0x3170d1dd6ee8e083:0xb82c2d8a6193a84b!8m2!3d11.5696097!4d108.9948438!16s%2Fg%2F11sn95m2_s?entry=ttu&g_ep=EgoyMDI1MTAyMi4wIKXMDSoASAFQAw%3D%3D"
     },
     "groomFamily": {
       "title": "Nhà Trai", 
-      "address": "Xóm 3, Xã Giao Bình, Tỉnh Ninh Bình",
-      "embedUrl": "https://www.google.com/maps/place/20%C2%B014'34.7%22N+106%C2%B024'07.8%22E/@20.2429722,106.3995918,17z/data=!3m1!4b1!4m4!3m3!8m2!3d20.2429722!4d106.4021667?entry=ttu&g_ep=EgoyMDI1MDcyOC4wIKXMDSoASAFQAw%3D%3D"
+      "address": "Pavillon Tân Sơn Nhất",
+      "embedUrl": "https://maps.app.goo.gl/cnne2LdjVNmk7GZRA"
     }
   },
 
@@ -252,17 +247,17 @@
     "title": "Mừng Cưới",
     "description": "Thay lời chúc, cảm ơn bạn đã gửi lời chúc mừng đến đám cưới của chúng tôi",
     "bride": {
-      "name": "Nguyễn Thị Hoài Dung",
-      "bankName": "Ngân hàng BIDV",
-      "accountNumber": "2153208613",
-      "accountName": "NGUYEN THI HOAI DUNG",
+      "name": "Hồ Huỳnh Ngọc Hạnh",
+      "bankName": "Ngân hàng ",
+      "accountNumber": "",
+      "accountName": "HO HUYNH NGOC HANH",
       "qrCode": "./images/qr_codau.jpg"
     },
     "groom": {
-      "name": "Đỗ Quốc Bảo",
-      "bankName": "Ngân hàng TPBank", 
-      "accountNumber": "83171997102",
-      "accountName": "DO QUOC BAO",
+      "name": "Trần Nguyễn Quang Trường",
+      "bankName": "Ngân hàng ", 
+      "accountNumber": "",
+      "accountName": "TRAN NGUYEN QUANG TRUONG",
       "qrCode": "./images/qr_chure.jpg"
     }
   },
