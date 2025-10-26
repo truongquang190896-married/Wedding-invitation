@@ -172,7 +172,7 @@
     },
     "day2": {
       "date": "Ngày 28 tháng 12 năm 2025",
-      "lunarDate": "(Ngày 08 tháng 12 Âm lịch)",
+      "lunarDate": "(Ngày 08 tháng 11 Âm lịch)",
       "events": [
         {
           "title": "Tiệc Cưới",
@@ -186,8 +186,8 @@
         "title": "Lễ Vu Quy",
         "icon": "fas fa-church",
         "date": "Chủ Nhật, 21/12/2025",
-        "time": "10:00 AM", 
-        "venue": "195 Ngô Gia Tự",
+        "time": "17:00 AM", 
+        "venue": "Hoàn Mỹ Resort",
         "address": "Hoàn Mỹ Resort Ninh Chử, Đường Yên Ninh, Phường Đông Hải, Tỉnh Khánh Hoà"
       },
       "reception": {
